@@ -1,0 +1,184 @@
+/* homesection */
+body{
+  margin: 0;
+  padding: 0;
+}
+.hero {
+  background-color: #155cd6;
+  color: white;
+  width: 100%;
+}
+
+.hero-container {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  width: 1000px;
+  margin: auto;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.hero-text p {
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+  color: white;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn-p{
+  background: white;
+  color: #155cd6;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn-p:hover{
+    background: #155cd6;
+    color: white;
+
+
+}
+
+.btn-s {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero-image img {
+  max-width: 450px;
+  border-radius: 10px;
+  height: 90vh;
+}
+.about{
+    background: whitesmoke;
+    display: flex;
+    gap: 10px;
+    padding: 1rem 2.5rem;
+}
+.about h1{
+  display: flex;
+  justify-content: center;
+  
+
+}
+.about-buttons{
+    background: whitesmoke;
+    border: 1px solid whitesmoke;
+    padding: 10px;
+    gap: 50px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+.aboutText{
+    color: rgb(39, 36, 36);
+    
+}
+span{
+  color: #155cd6;
+}
+.about-buttons button{
+    background: white;
+    color: black;
+    padding: o.6rem 1.3rem;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.about-buttons button:hover{
+    background: white;
+    color: #155cd6;
+}
+.about-buttons button:active{
+    background: #155cd6;
+    color: white;
+    border:none;
+}
+
+/* services.css */
+h1{
+    color: black;
+    text-align: center;
+}
+p{
+    color: rgb(39, 36, 36);
+    text-align: center;
+}
+.services button{
+    color:#155cd6;
+    background: white;
+    border:1px solid #155cd6;
+    border-radius: 8px;
+    padding: 10px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 43%;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+.grid-item{
+    background:whitesmoke;
+    border-collapse: collapse;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    border-collapse: collapse;
+}
+.grid-item:hover{
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.circle:hover{
+   background: #155cd6;
+  color: white;
+
+}
+
+.grid-item img{
+  width: 40px;
+}
+.circle{
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:white;
+  border: 2px solid #155cd6;
+}
+
+
+
+
+

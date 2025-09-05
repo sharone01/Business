@@ -1,0 +1,28 @@
+nav{
+background: #155cd6;
+display: flex;
+gap: 200px;
+padding: 1rem 2rem;
+position: sticky;
+top: 0;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links{
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+.nav-links a{
+ 
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+logo{
+    height: 40px;
+}
