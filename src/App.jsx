@@ -1,12 +1,15 @@
 import React from "react"
 import Navbar from "./components/navbar"
 import { Route,Routes } from "react-router"
-import Home from "./components/home"
+import Home from "./components/Home"
 import Services from "./components/services"
 import Portfolio from "./components/portfolio"
 import Pricing from "./components/pricing"
 import Team from "./components/team"
 import Contact from "./components/contact"
+import UserList from "./components/Map"
+import Maps from "./components/gridmap"
+
 
 
 function  App() {
@@ -25,7 +28,8 @@ function  App() {
           <Route path ="/" element = {<Contact/>}/>
 
         </Routes>
-
+<UserList/>
+<Maps/>
         </div>
     </>
   )

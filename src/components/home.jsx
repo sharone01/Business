@@ -8,13 +8,15 @@ import stack from "../assets/bstack.jpg"
 import cycle from "../assets/bcycle.jpg"
 
 
+
 const Home = () => {
+
+   
     const [activeTab, setActiveTab] = useState ('who');
     const content ={
         who: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, look like readable English.There are many variations of passages of Lorem Ipsum available,but the majority have in some form, by injected humour.", 
-  
-        vision: "you",
-        history:"hi",
+        vision: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, look like readable English.There are many variations of passages of Lorem Ipsum available, but the majority have in some form, by injected humour.",
+        history:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, look like readable English.There are many variations of passages of Lorem Ipsum available, but the majority have in some form, by injected humour.",
     }
     return(
 <section className="Home-page">
